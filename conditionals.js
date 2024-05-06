@@ -1,9 +1,15 @@
+let continueButton = document.querySelector(".continue-button");
 let englishButton = document.querySelector(".english-button");
 let ssButton = document.querySelector(".ss-button");
 let mathButton = document.querySelector(".math-button");
 let scienceButton = document.querySelector(".science-button");
 
+let helloBanner = document.querySelector(".hello");
+let studentName = document.querySelector(".student-name");
 
+continueButton.addEventListener("click", function() {
+    
+});
 
 // For each of the test questions:
 //  - Use conditionals to check whether the correct answer was provided by the user. 
@@ -22,8 +28,6 @@ englishButton.addEventListener("click", function() {
     //  - The answer should be "Mon".
     //  - If the user enters the correct answer, use .innerHTML to display the word "Correct!" in the ".english-message" div. 
     //  - If incorrect, display "Wrong! Try again."
-    
-
 
 
 });
